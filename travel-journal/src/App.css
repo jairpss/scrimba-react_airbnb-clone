@@ -3,4 +3,30 @@
 * {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header--icon {
+  margin-right: 8px;
+}
+
+.header--title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
 }

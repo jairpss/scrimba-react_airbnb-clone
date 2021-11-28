@@ -16,7 +16,7 @@ function Card(props) {
                 <p className="card--info_dates">
                     {props.item.startDate} - {props.item.endDate}
                 </p>
-                <p>{props.item.description}</p>
+                <p className="card--info_description">{props.item.description}</p>
             </div>
         </div>
       
